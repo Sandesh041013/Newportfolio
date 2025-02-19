@@ -9,12 +9,13 @@ const About = () => {
       className="relative font-poppins min-h-screen text-white bg-black flex flex-col items-center justify-center px-4 py-12 lg:py-16"
       style={{ scrollMarginTop: "200px" }}
     >
-        <div className="absolute top-[-100px] left-[1500px] w-80 h-80 bg-gray-500 opacity-20 rounded-full blur-3xl z-0"></div>
-        <div className="absolute bottom-[-100px] right-[1500px] w-80 h-80 bg-gray-500 opacity-20 rounded-full blur-3xl z-0"></div>
+  {/* Decorative blurred circles */}
+  <div className="absolute top-[-100px] left-[1500px] w-80 h-80 bg-gray-500 opacity-20 rounded-full blur-3xl z-0"></div>
+      <div className="absolute bottom-[-100px] right-[1500px] w-80 h-80 bg-gray-500 opacity-20 rounded-full blur-3xl z-0"></div>
       {/* About Header & Description */}
       <div className="text-center mb-10">
         <h2 className="text-5xl font-bold text-blue-600 mb-3">ABOUT ME</h2>
-        <p className="text-xl font-light opacity-80 max-w-2xl mx-auto">
+        <p className="text-xl font-light opacity-80 max-w-2xl mx-auto ">
           Get to know more about my journey, passion, and expertise in web
           development. Let's create something amazing together!
         </p>

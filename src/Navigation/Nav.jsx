@@ -7,7 +7,7 @@ const Nav = () => {
   const navitems = [
     { id: 0, name: "Home", target: "home" },
     { id: 1, name: "About", target: "about" },
-    { id: 2, name: "Project", target: "project" },
+    { id: 2, name: "Skills", target: "skill" },
     { id: 3, name: "Contact", target: "contact" },
   ];
 

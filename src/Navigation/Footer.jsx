@@ -1,24 +1,23 @@
-
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 border-t-2 border-slate-900 font-poppins w-full">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 gap-x-72">
-        
-        <div className="flex flex-col lg:items-center md:items-start justify-center ">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="flex flex-col items-center md:items-start justify-center">
           {/* Logo */}
-          <div className="mb-4 flex">
+          <div className="mb-4 flex justify-center items-center lg:ml-36">
             <img
               src="logo.jpg"
               alt="Logo"
               className="w-24 h-auto object-contain"
             />
-          </div>  
+          </div>
           {/* Designed & Developed by */}
           <p className="text-xl text-center md:text-left">
             Designed & Developed by{" "}
@@ -56,7 +55,7 @@ const Footer = () => {
               </div>
             </a>
           </div>
-          <p className="text-md text-white mt-6">
+          <p className="text-md text-white mt-6  flex justify-center items-center text-center">
             &copy; {new Date().getFullYear()} Sandesh Acharya. All Rights Reserved.
           </p>
         </div>
@@ -66,4 +65,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
