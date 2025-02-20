@@ -13,7 +13,7 @@ const skills = [
   { name: "Figma", icon: <FiFigma />, color: "text-[#0053CB]" },
 ];
 
-const Project = () => {
+const Skill = () => {
   return (
     <div className="h-auto min-h-screen bg-gradient-to-b bg-black flex justify-center items-center flex-col p-6 lg:w-screen" id="skill">
       <div className="flex flex-col justify-center items-center mb-16 mt-20 text-center">
@@ -39,4 +39,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Skill;

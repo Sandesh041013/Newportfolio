@@ -4,8 +4,9 @@ import {Routes,Route,BrowserRouter} from "react-router-dom"
 import Home from './Components/Pages/Home'
 import Nav from './Navigation/Nav'
 import About from './Components/Pages/About'
-import Project from './Components/Pages/Project'
+import Project from './Components/Pages/Skill'
 import Contact from './Components/Pages/Contact'
+import Skill from './Components/Pages/Skill'
 const App = () => {
   return (
     <div>
@@ -16,7 +17,7 @@ const App = () => {
     
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
-        <Route path="/skill" element={<Project/>}></Route>
+        <Route path="/skill" element={<Skill/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
         
       </Routes>
