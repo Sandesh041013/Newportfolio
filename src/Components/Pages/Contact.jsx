@@ -52,8 +52,8 @@ const Contact = () => {
   <div className="flex flex-col gap-4 flex-grow">
     {/* Location Card */}
     <div className="flex items-center w-full bg-gray-800 p-3 sm:p-4 rounded-xl shadow-md shadow-gray-700">
-      <div className="flex items-center justify-center bg-blue-500 rounded-full h-10 w-10 sm:h-12 sm:w-12 mr-3 flex-shrink-0">
-        <FiMapPin className="text-white text-lg sm:text-xl" />
+      <div className="flex items-center justify-center bg-blue-500 rounded-full h-10 w-10 sm:h-12 sm:w-12 mr-3 flex-shrink-0 hover:bg-white text-white hover:text-blue-400">
+        <FiMapPin className=" text-lg sm:text-xl" />
       </div>
       <div>
         <h1 className="text-base sm:text-xl font-semibold text-white">Location</h1>
@@ -62,8 +62,8 @@ const Contact = () => {
     </div>
     {/* Email Card */}
     <div className="flex items-center w-full bg-gray-800 p-3 sm:p-4 rounded-xl shadow-md shadow-gray-700">
-      <div className="flex items-center justify-center bg-blue-500 rounded-full h-10 w-10 sm:h-12 sm:w-12 mr-3 flex-shrink-0">
-        <FiMail className="text-white text-lg sm:text-xl" />
+      <div className="flex items-center justify-center bg-blue-500 rounded-full h-10 w-10 sm:h-12 sm:w-12 mr-3 flex-shrink-0  hover:bg-white text-white hover:text-blue-400">
+        <FiMail className=" text-lg sm:text-xl" />
       </div>
       <div>
         <h1 className="text-base sm:text-xl font-semibold text-white">Email</h1>
@@ -72,8 +72,8 @@ const Contact = () => {
     </div>
     {/* Phone Card */}
     <div className="flex items-center w-full bg-gray-800 p-3 sm:p-4 rounded-xl shadow-md shadow-gray-700">
-      <div className="flex items-center justify-center bg-blue-500 rounded-full h-10 w-10 sm:h-12 sm:w-12 mr-3 flex-shrink-0">
-        <FiPhone className="text-white text-lg sm:text-xl" />
+      <div className="flex items-center justify-center bg-blue-500 rounded-full h-10 w-10 sm:h-12 sm:w-12 mr-3 flex-shrink-0  hover:bg-white text-white hover:text-blue-400">
+        <FiPhone className=" text-lg sm:text-xl" />
       </div>
       <div>
         <h1 className="text-base sm:text-xl font-semibold text-white">Phone</h1>

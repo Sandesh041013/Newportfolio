@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Link } from "react-scroll";
-
-
 const Nav = () => {
   const navitems = [
     { id: 0, name: "Home", target: "home" },
