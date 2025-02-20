@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'react-scroll': require.resolve('react-scroll'),
+'react-scroll': 'react-scroll', 
     },
   },
 });
