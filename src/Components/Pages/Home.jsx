@@ -110,10 +110,10 @@ const Home = () => {
 
         {/* Floating icons for mobile */}
         {showFloatingIcons && (
-          <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex lg:hidden space-x-4 bg-gray-900 px-4 py-2 rounded-lg shadow-lg">
+          <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex lg:hidden space-x-4 bg-gray-900 px-4 py-2 rounded-lg shadow-lg z-50">
             {logo.map((item, index) => (
               <a href={item.to} key={index} className="flex items-center gap-2">
-                <p className="text-3xl">{item.icon}</p>
+                <p className={`text-${item.color} text-3xl`}>{item.icon}</p>
               </a>
             ))}
           </div>

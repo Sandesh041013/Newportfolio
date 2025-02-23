@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="flex flex-col items-center">
           <p className="text-2xl font-semibold mb-4 text-blue-600">Let's Connect!</p>
           <div className="flex justify-center space-x-4">
-            <a href="https://github.com/Saurav433" aria-label="GitHub">
+            <a href="https://github.com/Sandesh041013" aria-label="GitHub">
               <div className="p-3 border-2 border-white rounded-full transition-all duration-300 hover:bg-white hover:text-black">
                 <FaGithub className="text-2xl" />
               </div>
